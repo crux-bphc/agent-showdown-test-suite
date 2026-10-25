@@ -265,6 +265,8 @@ The bomb then remains placed for the next 2 moves, after which it explodes. For 
 - Painted tiles of the color of the player who placed the bomb, if after the explosion there exists a connection between this newly painted region and the current area of that player.
 - Air tiles, if such a connection is not possible.
 
+The intersection of two bombs that explode on the same tick is air.
+
 > [!TIP]
 > An important aspect of bombs is that they can be thrown across walls. This makes them useful for offense in cases where you are walled off by other players or the map. They are also a great resource to break breakable walls quickly.
 
